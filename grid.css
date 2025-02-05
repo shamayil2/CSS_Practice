@@ -1,0 +1,26 @@
+.parent {
+    display: grid;
+    background-color: aqua;
+    padding: 40px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.parent div {
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 4rem;
+}
+
+.item1 {
+    grid-column: 1/4;
+}
+
+.item2 {
+    grid-row: 2/4;
+}
+
+.item5 {
+    grid-column: 2/4;
+}
