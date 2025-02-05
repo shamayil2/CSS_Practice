@@ -9,12 +9,11 @@
 
 .parent div {
     border: 1px solid black;
-    font-size: 30px;
-    padding: 4rem;
 }
 
 .item1 {
     grid-column: 1/4;
+    font-size: 3em;
 }
 
 .item2 {
