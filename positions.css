@@ -1,0 +1,55 @@
+li {
+    font-weight: bold;
+}
+
+.item-two {
+    position: relative;
+    left: 30px;
+}
+
+.item-three {
+    position: relative;
+    left: 60px;
+}
+
+.q2 {
+    height: 100px;
+    width: 100px;
+    background-color: lightgray;
+}
+
+.q2-parent {
+    display: flex;
+    gap: 10px;
+}
+
+.q2:nth-child(2) {
+    position: relative;
+    top: 30px;
+}
+
+.q2:nth-child(3) {
+    position: relative;
+    top: 60px;
+}
+
+h1 {
+    padding: 20px 0px;
+}
+
+.q3-parent {
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.q3 {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    background-color: lightpink;
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+}
